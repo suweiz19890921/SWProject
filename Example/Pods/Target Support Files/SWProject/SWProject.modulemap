@@ -1,0 +1,6 @@
+framework module SWProject {
+  umbrella header "SWProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

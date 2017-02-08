@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SWProject'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SWProject.'
+  s.summary          = 'a test project.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/617907240@qq.com/SWProject'
+  s.homepage         = 'https://github.com/suweiz19890921/SWProject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '617907240@qq.com' => 'suwei@solot.com' }
+  s.author           = { 'suweiz19890921' => '814325429@qq.com' }
   s.source           = { :git => 'https://github.com/617907240@qq.com/SWProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'SWProject' => ['SWProject/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'SWProject/Classes/PublicHeader.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

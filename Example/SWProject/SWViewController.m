@@ -7,7 +7,7 @@
 //
 
 #import "SWViewController.h"
-
+#import "SWTestViewController.h"
 @interface SWViewController ()
 
 @end
@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    SWTestViewController *vc = [SWTestViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
